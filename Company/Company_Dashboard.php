@@ -100,7 +100,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="Company_Dashboard.html" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="Company_Dashboard.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="view_student.php"><i class="fa fa-sitemap fa-fw"></i>View Students<span class="fa arrow"></span></a>
