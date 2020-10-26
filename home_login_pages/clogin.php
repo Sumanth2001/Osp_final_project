@@ -78,7 +78,7 @@
                     if($hashedpassword == $row['CPASS'])
                     {
                         // change location to company dashboard
-                        header("Location: ../company/Company_Dashboard.html");
+                        header("Location: ../company/Company_Dashboard.php");
                     }
                     else
                     {
