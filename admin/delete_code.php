@@ -232,13 +232,7 @@ function myFunction() {
                                                         <td><?php echo $row['CNAME'];?></td>
                                                         <td><?php echo $row['CEID'];?></td>
                                                         <td><?php echo $row['CPH'];?></td>
-                                                        <td><a href="delete_code.php?CID=<?php echo $row["CID"]; ?>"><button class="btn btn-danger>Delete</button></a></td>
-                                                        <!-- <td> -->
-                                                        <!-- <button type="button" class="btn btn-danger deletebtn">DELETE</button> -->
-                                                        <!-- </td> -->
-                                                        <!-- <td>
-                                                            <button type="button" class="btn btn-danger deletebtn">DELETE</button>
-                                                        </td> -->
+                                                        <td><a href="delete_code.php?ID=<?php echo $row["ID"]; ?>"><button class="btn btn-danger">Delete</button></a></td>
                                                     </tr>
                                                 </tbody>
                                             <?php
