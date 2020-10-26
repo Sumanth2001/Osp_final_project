@@ -259,7 +259,7 @@ if(mysqli_connect_error()){
                     <tr>
                     <th>NAME</th>
                     <th>EMAIL</th>
-                    <th> View MOre</th>
+                    <th>View More</th>
                     </tr>
                     </thead>
                     <?php
@@ -272,7 +272,7 @@ if(mysqli_connect_error()){
                     if($result-> num_rows>0)
                     {
                     while($row=$result-> fetch_assoc()){
-                        echo "<tr><td>". $row["NAME"]."</td><td>".$row["EMAIL"]."</td><td><a herf ='view_student.php'>Click Me</a></td></tr>";
+                        echo "<tr><td>". $row["NAME"]."</td><td>".$row["EMAIL"]."</td><td><a href ='view_student_details.php'>Click Me</a></td></tr>";
                     }
                     echo "</table>";
                     }
@@ -297,7 +297,7 @@ if(mysqli_connect_error()){
                     <tr>
                     <th>Company NAME</th>
                     <th>Website</th>
-                    <th> View MOre</th>
+                    <th> View More</th>
                     </tr>
                     </thead>
                     <?php
@@ -310,7 +310,7 @@ if(mysqli_connect_error()){
                     if($result-> num_rows>0)
                     {
                     while($row=$result-> fetch_assoc()){
-                        echo "<tr><td>". $row["CNAME"]."</td><td>".$row["CWEB"]."</td><td><a herf ='view_company.php'>Click Me</a></td></tr>";
+                        echo "<tr><td>". $row["CNAME"]."</td><td>".$row["CWEB"]."</td><td><a href ='view_company_details.php'>Click Me</a></td></tr>";
                     }
                     echo "</table>";
                     }
