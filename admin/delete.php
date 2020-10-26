@@ -230,13 +230,9 @@ function myFunction() {
                                                         <td><?php echo $row['NAME'];?></td>
                                                         <td><?php echo $row['EMAIL'];?></td>
                                                         <td><?php echo $row['PHONE'];?></td>
-                                                        <td><a href="delete.php?ID=<?php echo $row["ID"]; ?>"><button class="btn btn-danger>Delete</button></a></td>
-                                                        <!-- <td> -->
-                                                        
-                                                        <!-- </td> -->
-                                                        <!-- <td>
-                                                            <button type="button" class="btn btn-danger deletebtn">DELETE</button>
-                                                        </td> -->
+                                                        <td><a href="delete.php?ID=<?php echo $row["ID"]; ?>"><button class="btn btn-danger">Delete</button></a></td>
+                                                           
+            
                                                     </tr>
                                                 </tbody>
                                             <?php
