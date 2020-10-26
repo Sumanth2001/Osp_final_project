@@ -204,9 +204,9 @@
                 <input id="password" name="password" class="details" type="password" placeholder="password"><br>
                 <span id="p" style="color: black; visibility: hidden;">Enter your password</span><br>
                 
-                <input id="check" type="checkbox" name="stayloggedin" value="1">
-                <label for="Email" class="kl">Keep me logged in</label><br>
-                <a class="forgot text-muted" href="#">&nbsp;&nbsp;Forgot password?</a><br>
+                <!-- <input id="check" type="checkbox" name="stayloggedin" value="1"> -->
+                <!-- <label for="Email" class="kl">Keep me logged in</label><br> -->
+                <!-- <a class="forgot text-muted" href="#">&nbsp;&nbsp;Forgot password?</a><br> -->
                                 
                 <input type="hidden" name="signUp" value="0">
                 <button class="butn" onclick="validate()" name="submit">Login</button>
